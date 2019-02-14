@@ -65,6 +65,12 @@
             "request": "launch",
             "program": "${file}",
             "console": "externalTerminal"
-        }
+        },
+        {
+            "name": "Python: pytrain/train001/app.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/pytrain/train001/app.py",
+        },
     ]
 }
