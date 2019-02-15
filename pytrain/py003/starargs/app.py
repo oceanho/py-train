@@ -21,12 +21,10 @@ def star_2(a,*b,**c):
     print(
         "Args length: {len}\n"
         "Args *b type {tb}, value is {vb}\n"
-        "Args **c type {tc}, value is {vc}".
-        format(len=len(sys.argv),tb=type(b),vb=b,tc=type(c),vc=c)
+        "Args **c type {tc}, value is {vc}".format(len=len(sys.argv),tb=type(b),vb=b,tc=type(c),vc=c)
     )
 
-if __name__ == "__main__":
-    star_1(1,2,3,4)
-    print("\n")
-    star_2(1,2,3,4,c1='c1',c2=b'0xFF')
+star_1(1,2,3,4)
+print("\n")
+star_2(1,2,3,4,c1='c1',c2=b'0xFF')
 
