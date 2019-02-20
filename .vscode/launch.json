@@ -70,7 +70,13 @@
             "name": "Python: pytrain/train001/app.py",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/pytrain/train001/app.py",
+            "program": "${workspaceFolder}/pytrain/py001/app.py",
+        },
+        {
+            "name": "Python: pytrain/004/decorator/app.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/pytrain/py004/decorator/app.py",
         },
     ]
 }
